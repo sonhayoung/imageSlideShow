@@ -26,10 +26,20 @@
     <ViewFlipper
         android:id="@+id/view_flip"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="wrap_content">
         <ImageView
+            android:src="@drawable/img1"
         android:layout_width="match_parent"
             android:layout_height="match_parent"/>
+        <ImageView
+            android:src="@drawable/img2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:src="@drawable/img3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
+</ViewFlipper>
 </LinearLayout>
 
